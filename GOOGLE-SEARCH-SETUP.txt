@@ -1,0 +1,24 @@
+AP COMPUTERS — SEO / GOOGLE SEARCH SETUP
+
+This package includes page titles and descriptions, canonical URLs, Open Graph URL metadata, robots.txt and sitemap.xml for:
+https://ajith7663.github.io/apcomputers/
+
+PUBLISH
+1. Extract this ZIP. Upload/replace the website files in the root of the apcomputers GitHub repository (keep assets/ and services/ folders).
+2. Commit to the main branch and wait for GitHub Pages deployment.
+3. Confirm these URLs load:
+   https://ajith7663.github.io/apcomputers/robots.txt
+   https://ajith7663.github.io/apcomputers/sitemap.xml
+
+GOOGLE SEARCH CONSOLE
+1. Visit https://search.google.com/search-console/ and sign in to Google.
+2. Choose URL prefix property and enter: https://ajith7663.github.io/apcomputers/
+3. Complete the verification method Google offers. For GitHub Pages, HTML tag verification is usually easiest: copy the exact meta verification tag from Search Console and add it inside the <head> of index.html, then commit and click Verify. Do not invent a verification token.
+4. In Search Console, open Sitemaps and submit: sitemap.xml
+5. Use URL Inspection to request indexing for the homepage and important service pages. Indexing is not guaranteed or immediate.
+6. Check Pages/Indexing and Performance reports over the following weeks.
+
+NOTES
+- This is a static GitHub Pages website. Search Console submission does not guarantee a ranking or immediate indexing.
+- A custom domain can be connected later; if you do, update canonical URLs and sitemap URLs to the final domain.
+- Verify the address, phone, services, and Google Maps pin are accurate before publishing.

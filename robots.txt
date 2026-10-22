@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ajith7663.github.io/apcomputers/sitemap.xml
